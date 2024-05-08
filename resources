@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Ashwin Sivakumar</title>
+  <meta name="description" content="VIT Undergrad Profile" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1 class="global-title">Ashwin Sivakumar</h1>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+
+        <li>
+          <a href="works.html"> Posts </a>
+        </li>
+          <li>
+          <a href="resources.html">Resources</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h2>Quantum Computing Resources</h2>
+
+<h2>Quantum Computing Textbooks/Tutorials</h2>
+<ol>
+    <li><a href="https://www.amazon.in/Quantum-Computation-Information-10th-Anniversary/dp/1107002176">Nielsen and Chuang (Quantum Computation and Information)</a></li>
+    <li><a href="https://young.physics.ucsc.edu/150/phys_150_all.pdf">An Undergraduate Course on Quantum Computing by Peter Young</a></li>
+    <li><a href="https://learning.quantum-computing.ibm.com/course/basics-of-quantum-information">Basics of Quantum Information, John Watrous</a></li>
+    <li><a href="https://link.springer.com/book/10.1007/978-3-030-61601-4">Quantum Computing for the Quantum Curious</a></li>
+    <li><a href="https://youtube.com/playlist?list=PLuBwWyD3M82x9PfxeF7oxb0E122mQAWh6">Introduction to Quantum Computing - NPTEL IIT Madras</a></li>
+</ol>
+
+<h2>Quantum Computing Programming Tutorials</h2>
+<ol>
+    <li><a href="https://learning.quantum-computing.ibm.com/">Qiskit - IBM Quantum Learning</a></li>
+    <li><a href="https://pennylane.ai/qml/">Pennylane - Xanadu</a>
+        <ul>
+            <li><a href="https://pennylane.ai/challenges/">Pennylane Challenges</a></li>
+        </ul>
+    </li>
+    <li><a href="https://aws.amazon.com/braket/getting-started/">AWS Braket Getting Started</a></li>
+</ol>
+
+<h2>Variational Quantum Design Resources</h2>
+<ol>
+    <li><a href="https://learning.quantum-computing.ibm.com/course/variational-algorithm-design">Variational Quantum Design - IBM Quantum Learning</a></li>
+    <li><a href="https://qiskit.org/ecosystem/nature/tutorials/index.html">Qiskit Nature Tutorials</a></li>
+</ol>
+
+<h2>Quantum Cryptography</h2>
+<ol>
+    <li><a href="https://learning.quantum-computing.ibm.com/course/practical-introduction-to-quantum-safe-cryptography">Practical introduction to quantum-safe cryptography - IBM Quantum Learning</a></li>
+    <li>Youtube Links
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=fLJ9mvTS68Y">What is Quantum Cryptography? - Sabine Hossenfelder</a></li>
+            <li><a href="https://www.youtube.com/watch?v=uiiaAJ3c6dM">Quantum Cryptography in 6 Minutes - Up and Atom</a></li>
+            <li><a href="https://www.youtube.com/watch?v=UiJiXNEm-Go">Quantum Computing Explained - Physics Girl</a></li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Miscellaneous Resources</h2>
+<ol>
+    <li><a href="https://medium.com/qiskit/quantum-clubs-could-be-your-ticket-into-the-quantum-computing-field-8a29541384fb">Quantum Clubs Could Be Your Ticket Into the Quantum Computing Field</a></li>
+    <li><a href="https://qiskit.org/advocates">Qiskit Advocate Community</a>
+        <ul>
+            <li><a href="https://github.com/qiskit-advocate/application-guide">Qiskit Advocates Application Guide</a></li>
+        </ul>
+    </li>
+</ol>
+
+
+</body>
