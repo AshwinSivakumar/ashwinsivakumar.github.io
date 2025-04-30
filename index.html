@@ -12,10 +12,11 @@
 </head>
 
 
+    border: 1px solid #ddd;
+  }
+
+
 <style type="text/css">
-  body {
-      font-family: 'Roboto', sans-serif;
-    }
   .tab-container {
     display: flex;
     border-bottom: 2px solid #ddd;
@@ -91,6 +92,19 @@
   }
 </style>
 
+<script type="text/javascript">
+  function showSection(sectionId) {
+    document.querySelectorAll('.content-section').forEach(section => {
+      section.classList.remove('active');
+    });
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.classList.remove('active');
+    });
+    document.getElementById(sectionId).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+</head>
 <script type="text/javascript">
   function showSection(sectionId) {
     document.querySelectorAll('.content-section').forEach(section => {
@@ -190,17 +204,14 @@
 
             <div class="blogs-container">
               <div class="blogs-text">
+                <img src="images/Distributed.png" class="blogs-image" alt="Blog Image" />
                 <a href="https://www.quantumsoftwarelab.com/qsl-researchers/maria-gragera-garces" target="_blank"
                   rel="noopener noreferrer">
-                  <span class="papertitle">Quantum Software lab</span>
+                  <span class="papertitle">Quantum Optimization Research Team</span>
                 </a>
                 <br />
-                <em>Uni. of Edinburgh</em>, 2024-Present
-                <p> I am a PhD researcher at the Quantum Software Lab, where I work on distributed quantum computing.
-                  My focus is on designing and evaluating architectures for distributing quantum computations across networked quantum devices.
-                  This includes benchmarking cross-platform setups using simulated and real quantum hardware.
-                  I develop tools to translate monolithic circuits into distributed workloads, model communication costs, and analyze the trade-offs between locality, parallelism, and reliability.
-                  The goal is to understand what quantum tasks are best suited for offloading and how to coordinate them efficiently over constrained quantum networks.
+                <em>BQP (BosonQ Psi)</em>, December 2024-Present
+                <p> I'm currently researching quantum - inspired optimization algorithms for single and multi - objective applications. 
                 </p>
               </div>
             </div>
