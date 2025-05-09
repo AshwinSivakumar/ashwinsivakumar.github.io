@@ -1,282 +1,80 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="author" content="Ashwin Sivakumar">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="data:,">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sualeh Asif - Profile</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+      color: #333;
+    }
 
-  <title>Ashwin Sivakumar</title>
+    .container {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 14px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
 </head>
-
-<style type="text/css">
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-
-  .tab-container {
-    display: flex;
-    border-bottom: 2px solid #ddd;
-    margin-bottom: 20px;
-  }
-
-  .tab {
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    background: none;
-    outline: none;
-    font-weight: bold;
-    color: #1a0dab;
-  }
-
-  .tab:hover {
-    text-decoration: underline;
-  }
-
-  .tab.active {
-    border-bottom: 3px solid #1a0dab;
-    color: black;
-  }
-
-  .content-section {
-    display: none;
-    padding: 10px;
-  }
-
-  .content-section.active {
-    display: block;
-  }
-
-  .blogs-container,
-  .research-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-  }
-
-  .blogs-image,
-  .research-image {
-    width: 150px;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 5px;
-  }
-
-  .blogs-text,
-  .research-text {
-    flex: 1;
-  }
-
-  .papertitle {
-    font-weight: bold;
-    font-size: 16px;
-    color: #1a0dab;
-  }
-
-  a {
-    text-decoration: none;
-    color: #1a0dab;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-</style>
-
-<script type="text/javascript">
-  function showSection(sectionId) {
-    document.querySelectorAll('.content-section').forEach(section => {
-      section.classList.remove('active');
-    });
-    document.querySelectorAll('.tab').forEach(tab => {
-      tab.classList.remove('active');
-    });
-    document.getElementById(sectionId).classList.add('active');
-    event.target.classList.add('active');
-  }
-</script>
-</head>
-<script type="text/javascript">
-  function showSection(sectionId) {
-    document.querySelectorAll('.content-section').forEach(section => {
-      section.classList.remove('active');
-    });
-    document.querySelectorAll('.tab').forEach(tab => {
-      tab.classList.remove('active');
-    });
-    document.getElementById(sectionId).classList.add('active');
-    event.target.classList.add('active');
-  }
-</script>
-</head>
-
 <body>
-  <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                  <p class="name" style="text-align: center;">
-                  <h1>Ashwin Sivakumar</h1>
-                  </p>
-                  <p>
-                    I'm currently finishing my undergraduate studies at 
-                    <a href="https://chennai.vit.ac.in/" target="_blank" rel="noopener noreferrer">VIT Chennai</a> majoring in 	Electronics and Computer Engineering. I'm interning at <a href="https://www.bqpsim.com/" target="_blank" rel="noopener noreferrer">BQP</a> where I research quantum-inspired optimization algorithms. I have also 			had previous research stints at VIT Chennai, <a href="https://www.medxai-innovations.com/" target="_blank" rel="noopener noreferrer">MEDxAI Innovations</a> and <a href="https://www.tcs.com/what-we-do/research" target="_blank" rel="noopener noreferrer">TCS Research</a>. 
-                  </p>
-                                    <p style="text-align:center">
-                    <a href="mailto:ashwinsivakumar11602@gmail.com">Email</a>
-                    &nbsp;/&nbsp;
-                    <a href="https://www.linkedin.com/in/ashsiv/" target="_blank"
-                      rel="noopener noreferrer">LinkedIn</a> &nbsp;/&nbsp;
-                    <a href="https://github.com/AshwinSivakumar" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    &nbsp;/&nbsp;
-                    <a href="https://scholar.google.com/citations?user=d0ElR6IAAAAJ&hl=en" target="_blank"
-                      rel="noopener noreferrer">Google Scholar</a> &nbsp;/&nbsp;
-                     <a href="https://ashwinsivakumar.substack.com/" target="_blank"
-                      rel="noopener noreferrer">Substack</a> &nbsp;
-                  </p>
-                </td>
-                <td style="padding:2.5%;width:37%;max-width:37%">
-                  <a href="Profile_Ash.jpg" target="_blank" rel="noopener noreferrer">
-                    <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo"
-                      src="Profile_Ash.jpg" class="hoverZoomLink">
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+  <div class="container">
+    <h1>Ashwin Sivakumar</h1>
 
-          <div class="tab-container">
-            <button class="tab active" onclick="showSection('research')">Research</button>
-            <button class="tab" onclick="showSection('blogs')">Blogs</button>
-            <button class="tab" onclick="showSection('news')">News</button>
-            <button class="tab" onclick="showSection('experience')">Experience</button>
-          </div>
+    <p>
+      I'm currently researching quantum optimization algorithms at <a href="https://www.bqpsim.com/">BQP (BosonQ Psi)</a>. I will be joining
+      the <a href="https://www.prasadresearchgroup.ca/">Prasad Research Group</a> at the <a href="https://www.ucalgary.ca/">University of Calgary</a>  
+      as a graduate research student. 
+      
+    </p>
 
-          <div id="research" class="content-section active">
-            <p>My research interests span Quantum Algorithms for Chemistry, AI for Drug Discovery and Flexible Electronics</p>
-            <p>Here are some of my publications:</p>
+    <p><em>Previously:</em></p>
+    <ul>
+      <li>Recently graduated from Vellore Institute of Technology (VIT), Chennai</li>
+    </ul>
 
-            <div class="research-container">
-              
-              <div class="research-text">
-                <a href="https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00280-8" target="_blank"
-                  rel="noopener noreferrer">
-                  <span class="papertitle">A computational study and analysis of Variational Quantum Eigensolver over multiple parameters for molecules and ions</span>
-                </a>
-                <br />
-                <strong>Ashwin Sivakumar</strong>, Harishankar K Nair, Aurum Joshi, Kenson Wesley R, Akash P Videsh & Reena Monica P
-                <br />
-                <em>EPJ Quantum Technology</em>, October 2024
-                <p>We have performed a computational analysis of the Variational Quantum Eigensolver by comparison of different ansatz, mapping techniques
-                and classical optimizers used and have created a dataset for heavier molecules essential for energy storage based on the best 
-                configuration of VQE. </p>
-              </div>
-            </div>
-
-
-          </div>
-
-          <div id="blogs" class="content-section">
-            <p>Work in Progress, exciting stuff coming soon!</p>
-            
-          </div>
-
-          
-          <div id="news" class="content-section">
-              <p>Work in Progress, exciting stuff coming soon!</p>
-          </div>
-
-          <div id="experience" class="content-section">
-            <p>Work in Progress, exciting stuff coming soon!</p>
-
-            <div class="blogs-container">
-              <img src="bosonq_psi_logo.jpg" class="blogs-image" alt="Blog Image" />
-              <div class="blogs-text">
-                <a href="https://bqpsim.com" target="_blank"
-                  rel="noopener noreferrer">
-                  <span class="papertitle">Research Intern - Quantum Optimization Team</span>
-                </a>
-                <br />
-                <em>BQP (BosonQ Psi)</em>, December 2024-Present
-                <p> I'm currently researching quantum - inspired optimization algorithms for single and multi - objective applications. 
-                </p>
-              </div>
-            </div>
-
-            <div class="blogs-container">
-              <img src="medxai_logo.jpg" class="blogs-image" alt="Blog Image" />
-              <div class="blogs-text">
-                <a href="https://www.medxai-innovations.com/" target="_blank"
-                  rel="noopener noreferrer">
-                  <span class="papertitle">Research Intern</span>
-                </a>
-                <br />
-                <em>MedxAI Innovations, VIT Chennai</em>, Aug 2024 - Dec 2024
-                <p> I have implemented a Quantum Generative Adversarial Network (QGAN) for generating novel drug molecules. 
-                </p>
-              </div>
-            </div>
-
-            <div class="blogs-container">
-              <img src="tcs_research_logo.jpg" class="blogs-image" alt="Blog Image" />
-              <div class="blogs-text">
-                <a href="https://www.tcs.com/what-we-do/research" target="_blank"
-                  rel="noopener noreferrer">
-                  <span class="papertitle">Research Intern</span>
-                </a>
-                <br />
-                <em>TCS Research</em>, May 2024 - Jul 2024
-                <p> I have implemented a Quantum Generative Adversarial Network (QGAN) for generating novel drug molecules. 
-                </p>
-              </div>
-            </div>
-
-            <div class="blogs-container">
-              <img src="vit_chennai_logo.jpg" class="blogs-image" alt="Blog Image" />
-              <div class="blogs-text">
-                <a href="https://chennai.vit.ac.in" target="_blank"
-                  rel="noopener noreferrer">
-                  <span class="papertitle">Undergraduate Researcher</span>
-                </a>
-                <br />
-                <em>VIT Chennai</em>, 2022 - 2025
-                <p> I have implemented a Quantum Generative Adversarial Network (QGAN) for generating novel drug molecules. 
-                </p>
-              </div>
-            </div>
-
-          </div>
-
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding:0px">
-          <br />         
-          <p style="text-align:center;font-size:small;">
-            This website is inspired from <a href="https://grageragarces.github.io/" target="_blank" rel="noopener noreferrer">
-            </a>María Gragera Garcés' personal website</a> 
-              <a href="https://github.com/grageragarces/grageragarces.github.io" target="_blank"
-              rel="noopener noreferrer">source code</a>.
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+    <h2>Selected Publications:</h2>
+    Page under Construction, stay tuned for more updates. 
+    <ul>
+    </ul>
+  </div>
 </body>
-
 </html>
