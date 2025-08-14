@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ashwin Sivakumar - Profile</title>
   <style>
-    body {
+    html, body {
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #FFFFFF; /* Peach tone */
+      background-color: #FFFFFF;
       color: #000;
+      overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 
     .container {
@@ -31,18 +32,25 @@
       font-weight: bold;
     }
 
+    .social-links {
+      display: flex;
+      flex-wrap: wrap; /* Allows wrapping on small screens */
+      gap: 8px;
+    }
+
     .social-links a {
-      margin-right: 12px;
       font-size: 14px;
       color: inherit;
       text-decoration: underline;
       text-decoration-color: #00008B;
+      white-space: nowrap; /* Keep link text together */
     }
 
     a {
       color: inherit;
       text-decoration: underline;
       text-decoration-color: #00008B;
+      overflow-wrap: break-word; /* Break long text if needed */
     }
 
     a:hover {
@@ -71,11 +79,6 @@
     @media (max-width: 600px) {
       .container {
         padding: 15px;
-        margin-left: 10px;
-      }
-
-      .social-links {
-        flex-wrap: wrap;
       }
     }
   </style>
@@ -92,34 +95,48 @@
       </div>
     </div>
 
-    <p>
-      (This page is under construction, more updates to follow!) 
-    </p>
+    <p>(This page is under construction, more updates to follow!)</p>
 
     <p>
-      Hi there! I'm Ashwin. I'm currently researching quantum algorithms at <a href="https://bqpsim.com" target="_blank">BQP (BosonQ Psi)</a>.
+      Hi there! I'm Ashwin. I'm currently researching quantum algorithms at 
+      <a href="https://bqpsim.com" target="_blank">BQP (BosonQ Psi)</a>.
     </p>
 
     <h2>Recent Updates:</h2>
     <ul>
       <li>Soon to be graduating from <a href="https://chennai.vit.ac.in/" target="_blank">VIT Chennai</a> where I majored in Electronics and Computer Engineering</li>
-      <li>Invited as a Guest Panelist for <a href="https://www.linkedin.com/posts/ashsiv_connections-quantumcomputing-quantumtechnologies-activity-7301460572523376643-IlL2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB4HAgsB3FptxubKCFZeKK4JUBi9fgBROxM" target="_blank">
-        Quanclave '25</a> at SRM University, Ramapuram </li>
-      <li>Worked on Quantum Computing Research and Interned at <a href="https://chennai.vit.ac.in/" target="_blank">VIT Chennai</a>, 
-        <a href="https://www.tcs.com/what-we-do/research">TCS Research</a>, and <a href="https://bqpsim.com" target="_blank">BQP (BosonQ Psi)</a></li>
-      <li>Presented at top international and national conferences: <a href="https://quantum.iitm.ac.in/qcmc24/" target="_blank">QCMC 2024</a> 
-        and <a href="https://ncurbiisertirupati.wixsite.com/ncurb" target="_blank">NCURB 2024</a></li>
+      <li>Invited as a Guest Panelist for 
+        <a href="https://www.linkedin.com/posts/ashsiv_connections-quantumcomputing-quantumtechnologies-activity-7301460572523376643-IlL2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB4HAgsB3FptxubKCFZeKK4JUBi9fgBROxM" target="_blank">
+          Quanclave '25</a> at SRM University, Ramapuram
+      </li>
+      <li>Worked on Quantum Computing Research and Interned at 
+        <a href="https://chennai.vit.ac.in/" target="_blank">VIT Chennai</a>, 
+        <a href="https://www.tcs.com/what-we-do/research" target="_blank">TCS Research</a>, and 
+        <a href="https://bqpsim.com" target="_blank">BQP (BosonQ Psi)</a>
+      </li>
+      <li>Presented at top international and national conferences: 
+        <a href="https://quantum.iitm.ac.in/qcmc24/" target="_blank">QCMC 2024</a> and 
+        <a href="https://ncurbiisertirupati.wixsite.com/ncurb" target="_blank">NCURB 2024</a>
+      </li>
     </ul>
 
     <h2>Selected works:</h2>
     <ul>
-      <li><a href="https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00280-8" target="_blank">A Computational Study and Analysis of 
-        Variational Quantum Eigensolver over multiple parameters for molecules and ions</a>, EPJ Quantum Technology, October 2024</li>
-      <li><a href="https://www.linkedin.com/posts/ashsiv_connections-quantum-quantumcomputing-activity-7237255624391061504-IcSw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB4HAgsB3FptxubKCFZeKK4JUBi9fgBROxM" target="_blank">
-        Quantum Karnaugh Maps: Applications in Optimizing Established Quantum Circuits and Gates</a>, presented at the 16th International Conference on Quantum 
-        Communication, Measurement and Computing (QCMC 2024) at IIT Madras</li>
-      <li><a href="https://doi.org/10.1101/2024.11.15.623750" target="_blank">Analysis of Curcumin and Piperine for Breast Cancer Prevention and Treatment via Simulation and Artificial Intelligence Methods</a>, 
-        presented at the National Conference for Undergraduate Research in Biology (NCURB 2024) at IISER Tirupati</li>
+      <li>
+        <a href="https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-024-00280-8" target="_blank">
+          A Computational Study and Analysis of Variational Quantum Eigensolver over multiple parameters for molecules and ions
+        </a>, EPJ Quantum Technology, October 2024
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/posts/ashsiv_connections-quantum-quantumcomputing-activity-7237255624391061504-IcSw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB4HAgsB3FptxubKCFZeKK4JUBi9fgBROxM" target="_blank">
+          Quantum Karnaugh Maps: Applications in Optimizing Established Quantum Circuits and Gates
+        </a>, presented at the 16th International Conference on Quantum Communication, Measurement and Computing (QCMC 2024) at IIT Madras
+      </li>
+      <li>
+        <a href="https://doi.org/10.1101/2024.11.15.623750" target="_blank">
+          Analysis of Curcumin and Piperine for Breast Cancer Prevention and Treatment via Simulation and Artificial Intelligence Methods
+        </a>, presented at the National Conference for Undergraduate Research in Biology (NCURB 2024) at IISER Tirupati
+      </li>
     </ul>
   </div>
 </body>
