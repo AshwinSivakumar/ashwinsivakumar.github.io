@@ -5,83 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ashwin Sivakumar - Profile</title>
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #FFFFFF;
-      color: #000;
-      overflow-x: hidden; /* Prevent horizontal scrolling */
-    }
+  /* 1) Base */
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFFFFF;
+    color: #000;
+    /* <-- removed overflow-x: hidden; so text won't get cut off */
+  }
 
-    .container {
-      width: 100%;
-      max-width: 500px;
-      padding: 20px;
-      margin: auto;
-    }
+  /* 2) Layout */
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
 
-    .header {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-    }
+  .header { display: flex; flex-direction: column; gap: 6px; }
+  .name { font-size: 24px; font-weight: 700; }
 
-    .name {
-      font-size: 24px;
-      font-weight: bold;
-    }
+  /* 3) Truly wrap long text on tiny screens */
+  p, li, a, h1, h2, h3 {
+    overflow-wrap: anywhere;   /* modern, best at forcing breaks */
+    word-break: normal;        /* avoid breaking mid-word unless needed */
+  }
 
-    .social-links {
-      display: flex;
-      flex-wrap: wrap; /* Allows wrapping on small screens */
-      gap: 8px;
-    }
+  /* 4) Social links: wrap between & within links */
+  .social-links { display: flex; flex-wrap: wrap; gap: 8px; }
+  .social-links a {
+    font-size: 14px;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #00008B;
+    white-space: normal;       /* <-- allow wrapping inside each link */
+  }
 
-    .social-links a {
-      font-size: 14px;
-      color: inherit;
-      text-decoration: underline;
-      text-decoration-color: #00008B;
-      white-space: nowrap; /* Keep link text together */
-    }
+  /* 5) Links & text */
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #00008B;
+  }
+  a:hover { text-decoration-color: #0047AB; }
 
-    a {
-      color: inherit;
-      text-decoration: underline;
-      text-decoration-color: #00008B;
-      overflow-wrap: break-word; /* Break long text if needed */
-    }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 12px; }
 
-    a:hover {
-      text-decoration-color: #0047AB;
-    }
+  h2 { font-size: 18px; margin: 30px 0 14px; font-weight: 700; }
 
-    em {
-      font-style: italic;
-    }
+  @media (max-width: 600px) {
+    .container { padding: 16px; }
+  }
+</style>
 
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 12px;
-    }
-
-    h2 {
-      font-size: 18px;
-      margin-top: 30px;
-      margin-bottom: 14px;
-      font-weight: bold;
-    }
-
-    @media (max-width: 600px) {
-      .container {
-        padding: 15px;
-      }
-    }
-  </style>
 </head>
 <body>
   <div class="container">
